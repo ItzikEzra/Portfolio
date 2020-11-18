@@ -216,6 +216,8 @@ body {
 }
 
 .itemsContainer {
+  width: 200px;
+  height: 200px;
   width: 75%;
   position: relative;
   text-align: center;
@@ -224,6 +226,8 @@ body {
 
 .items li img {
   width: 100%;
+  width: 220px;
+  height: 220px;
   -webkit-transition: all 0.2s linear, 1s;
   -moz-transition: all 0.2s linear, 1s;
   -o-transition: all 0.2s linear, 1s;
@@ -232,6 +236,8 @@ body {
 }
 
 .items .item {
+  width: 200px;
+  height: 200px;
   position: relative;
   display: block;
   overflow: hidden;
