@@ -218,7 +218,8 @@ body {
 .itemsContainer {
   width: 75%;
   position: relative;
-  margin-left: 20%;
+  text-align: center;
+  margin: auto;
 }
 
 .items li img {
