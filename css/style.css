@@ -80,7 +80,9 @@ body {
 }
 
 .aboutImage {
-  max-width: 100%;
+  max-width: 50%;
+  border-radius: 100%;
+  margin-left: 20%;
 }
 
 .skillsSection {
