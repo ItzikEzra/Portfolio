@@ -45,10 +45,6 @@ $(document).ready(function() {
 	});
 
 
-
-
-
-
 	const nav = $("#navigation");
 	const navTop = nav.offset().top;
 
