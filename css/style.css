@@ -206,16 +206,27 @@ body {
 }
 
 .items li {
+  text-align: center;
   display: inline-block;
-  padding: 5px;
+  padding: 10px;
+  margin: 5px;
 }
-
 .itemsContainer {
   width: 75%;
   position: relative;
   text-align: center;
   margin: auto;
-  margin-left: 20%;
+}
+
+@media only screen and (min-width: 768px) {
+  .itemsContainer {
+    margin-left: 20%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .itemsContainer {
+    margin-left: 10%;
+  }
 }
 
 .items li img {
@@ -320,6 +331,7 @@ body {
   background-color: #fff;
   color: #000;
   padding: 15px 5px;
+  margin: auto;
 }
 
 #navigation {
